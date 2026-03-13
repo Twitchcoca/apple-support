@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Projet Scolaire</title>
+    <style>
+        /* Style du menu (inspiré par l'image) */
+        body {
+            margin: 0;
+            font-family: "SF Pro Text", "Myriad Set Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-color: #ffffff;
+        }
 
+        .navbar {
+            background-color: rgba(251, 251, 253, 0.8);
+            backdrop-filter: blur(20px); /* Effet de flou derrière le menu */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            height: 44px;
+            border-bottom: 1px solid #d2d2d7;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: #1d1d1f;
+            text-decoration: none;
+            font-size: 12px;
+            padding: 0 15px;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .navbar a:hover {
+            opacity: 1;
+        }
+
+        /* Contenu principal */
+        .main-content {
+            max-width: 800px;
+            margin: 80px auto;
+            padding: 0 20px;
+            color: #1d1d1f;
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -0.003em;
+        }
+
+        p {
+            font-size: 21px;
+            line-height: 1.38;
+            color: #6e6e73;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#">Accueil</a>
+        <a href="#">Histoire</a>
+        <a href="#">Sciences</a>
+        <a href="#">Maths</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="main-content">
+        <h1>Si vous voulez réussir votre devoir...</h1>
+        <p>Voici comment structurer votre contenu pour qu'il soit aussi clair et élégant que possible.</p>
+    </div>
+
+</body>
+</html>
